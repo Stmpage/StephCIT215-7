@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Destiny App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="destiny-app">
+    <div class="wrapper"></div>
+    <div class="card blue">
+        <div class="img"></div>
+        <img src="https://swdestinydb.com/bundles/cards/en/01/01038.jpg">
+        <div class="health">10</div>
+        <div class="rarity legendary">100</div>
+        <div class="name"> <div v-for="person in cards">Rey</div></div>
+        <div class="affl hero">Hero</div>
+    </div>
+
+    <div class="card yellow">
+        <div class="img"></div>
+        <img src="http://images-cdn.fantasyflightgames.com/filer_public/3b/15/3b1513ab-1bf2-46f9-93ec-9fb0246e567b/sws17_main.png">
+        <div class="health">10</div>
+        <div class="rarity legendary">36</div>
+        <div class="name"> <div v-for="person in cards">Han Solo</div></div>
+        <div class="affl hero">Hero</div>
+    </div>
+
+    <div class="card red">
+        <div class="img"></div>
+        <img src="https://i.pinimg.com/originals/67/fe/ca/67feca5ed7040713e386d568860701a8.jpg">
+        <div class="health">13</div>
+        <div class="rarity legendary">50</div>
+        <div class="name"> <div v-for="person in cards">General Grievous</div></div>
+        <div class="affl hero">Villain</div>
+    </div>
+
+    <div class="card blue">
+        <div class="img"></div>
+        <img src="http://images-cdn.fantasyflightgames.com/filer_public/70/2d/702dba51-4b9f-46db-ad74-36216b9fdbe9/swd13_preview2.jpg">
+        <div class="health">11</div>
+        <div class="rarity legendary">5</div>
+        <div class="name"> <div v-for="person in cards">Darth Vader</div></div>
+        <div class="affl hero">Villain</div>
+    </div>
+
+
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
